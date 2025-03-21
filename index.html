@@ -4,65 +4,86 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dragon Flash Wallet</title>
-  <link rel="stylesheet" href="styles/main.css"/>
-  <script defer src="scripts/wallet.js"></script>
+  <link rel="stylesheet" href="styles/main.css" />
 </head>
 <body>
   <header>
-    <img src="public/dragon-logo.png" alt="Dragon Flash Wallet Logo" class="logo"/>
+    <img src="public/dragon-logo.png" alt="Dragon Flash Logo" class="logo">
     <h1>Dragon Flash Wallet</h1>
-    <button id="connectWallet" class="connect-btn">Connect Wallet</button>
+    <button class="connect-wallet">Connect Wallet</button>
   </header>
 
-  <main class="token-grid">
-    <!-- Token cards -->
-    <div class="token-card">
-      <h2>Wrapped BTC (WBTC)</h2>
-      <p>Price: $0.00</p>
-      <button class="buy-btn">Buy</button>
-    </div>
+  <main>
+    <section class="token-list">
+      <!-- Each Token Card -->
+      <div class="token-card">
+        <h2>Wrapped BTC (WBTC)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
 
-    <div class="token-card">
-      <h2>Tether (USDT)</h2>
-      <p>Price: $0.00</p>
-      <button class="buy-btn">Buy</button>
-    </div>
+      <div class="token-card">
+        <h2>Tether (USDT)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
 
-    <div class="token-card">
-      <h2>Tether USDT</h2>
-      <p>Price: $0.00</p>
-      <button class="buy-btn">Buy</button>
-    </div>
+      <div class="token-card">
+        <h2>Tether USDT (USDT)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
 
-    <div class="token-card">
-      <h2>USDT BEP-20</h2>
-      <p>Price: $0.00</p>
-      <button class="buy-btn">Buy</button>
-    </div>
+      <div class="token-card">
+        <h2>USDT BEP-20 (USDT)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
 
-    <div class="token-card">
-      <h2>ETH BSC (ETHBSC)</h2>
-      <p>Price: $0.00</p>
-      <button class="buy-btn">Buy</button>
-    </div>
+      <div class="token-card">
+        <h2>USDT BEP-20 (USDTBEP)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
 
-    <div class="token-card">
-      <h2>Bitcoin BR (BTCBR)</h2>
-      <p>Price: $0.00</p>
-      <button class="buy-btn">Buy</button>
-    </div>
+      <div class="token-card">
+        <h2>ETH BSC (ETHBSC)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
 
-    <div class="token-card">
-      <h2>Teller (TELLER)</h2>
-      <p>Price: $0.00</p>
-      <button class="buy-btn">Buy</button>
-    </div>
+      <div class="token-card">
+        <h2>Wrapped BTC (BTC)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
 
-    <div class="token-card">
-      <h2>OTOKO (OTK)</h2>
-      <p>Price: $0.00</p>
-      <button class="buy-btn">Buy</button>
-    </div>
+      <div class="token-card">
+        <h2>Tether USD (USDT)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
+
+      <div class="token-card">
+        <h2>Teller (TELLER)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
+
+      <div class="token-card">
+        <h2>OTOKO (OTK)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
+
+      <div class="token-card">
+        <h2>Bitcoin BR (BTCBR)</h2>
+        <p>Price: $0.00</p>
+        <button class="buy-btn">Buy</button>
+      </div>
+    </section>
   </main>
+
+  <script src="scripts/wallet.js"></script>
 </body>
 </html>
