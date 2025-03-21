@@ -1,11 +1,81 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Test Deploy</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dragon Flash Wallet</title>
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .connect-wallet {
+      padding: 12px 24px;
+      background-color: #00aaff;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-bottom: 30px;
+      transition: background 0.3s ease;
+    }
+
+    .connect-wallet:hover {
+      background-color: #0077cc;
+    }
+
+    .token-card {
+      background-color: #1b1b1b;
+      margin: 20px auto;
+      padding: 20px;
+      width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    }
+
+    .buy-btn {
+      background-color: #28a745;
+      padding: 10px 20px;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-btn:hover {
+      background-color: #218838;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello Dragon Flash!</h1>
+  <img src="https://via.placeholder.com/120x120.png?text=LOGO" alt="Dragon Logo" />
+  <h1>Dragon Flash Wallet</h1>
+  <button class="connect-wallet">Connect Wallet</button>
+
+  <div class="token-card">
+    <h3>WBTC</h3>
+    <p>Price: $0.00</p>
+    <button class="buy-btn">Buy</button>
+  </div>
+
+  <div class="token-card">
+    <h3>USDT</h3>
+    <p>Price: $0.00</p>
+    <button class="buy-btn">Buy</button>
+  </div>
+
+  <script>
+    document.querySelector('.connect-wallet').addEventListener('click', () => {
+      alert("WalletConnect coming soon...");
+    });
+  </script>
 </body>
 </html>
