@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #161b22;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.connect-btn {
+  background-color: #1f6feb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.connect-btn:hover {
+  background-color: #388bfd;
+}
+
+.token-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.token-card {
+  background-color: #21262d;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.token-card:hover {
+  transform: scale(1.03);
+  background-color: #30363d;
+}
+
+.buy-btn {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #238636;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buy-btn:hover {
+  background-color: #2ea043;
+}
