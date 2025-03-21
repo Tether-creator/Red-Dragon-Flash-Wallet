@@ -1,69 +1,74 @@
+/* styles/main.css */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #0d1117;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e0e0e;
   color: #ffffff;
 }
 
 header {
-  padding: 20px;
   text-align: center;
-  background-color: #161b22;
+  padding: 20px;
+  background: #111;
+  border-bottom: 1px solid #333;
 }
 
 .logo {
-  width: 80px;
+  max-width: 120px;
   margin-bottom: 10px;
 }
 
-.connect-btn {
-  background-color: #1f6feb;
+.connect-wallet {
+  padding: 10px 20px;
+  background-color: #00aaff;
   color: white;
   border: none;
-  padding: 10px 20px;
-  cursor: pointer;
   border-radius: 6px;
-  transition: background 0.3s;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.connect-btn:hover {
-  background-color: #388bfd;
+.connect-wallet:hover {
+  background-color: #0077cc;
 }
 
-.token-grid {
+.token-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
   padding: 30px;
+  gap: 20px;
 }
 
 .token-card {
-  background-color: #21262d;
+  background-color: #1b1b1b;
+  border: 1px solid #2e2e2e;
   border-radius: 10px;
   padding: 20px;
-  width: 250px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.3);
-  transition: transform 0.3s, background 0.3s;
+  width: 240px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .token-card:hover {
-  transform: scale(1.03);
-  background-color: #30363d;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 .buy-btn {
-  margin-top: 10px;
-  width: 100%;
-  background-color: #238636;
+  background-color: #28a745;
   color: white;
   border: none;
-  padding: 10px;
+  padding: 10px 20px;
+  margin-top: 10px;
   border-radius: 6px;
+  font-weight: bold;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .buy-btn:hover {
-  background-color: #2ea043;
+  background-color: #218838;
 }
